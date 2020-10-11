@@ -1,0 +1,2 @@
+22.152
+we don't add any migration file and just now we write php artisan migrate in the terminal
