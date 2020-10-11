@@ -15,6 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+//    if(Auth::check()){
+//        return "The user is logged in";
+//    }
+//    $email = "sjlfjdlkf@gmail.com";
+//    $password = "1323jkj343434";
+//    if(Auth::attempt(['email' => $email, 'password' => $password])){
+//        return redirect()->intended('/admin');
+//    }
+
 });
 
 Auth::routes();
