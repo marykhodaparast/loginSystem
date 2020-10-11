@@ -1,2 +1,6 @@
 22.152
 we don't add any migration file and just now we write php artisan migrate in the terminal
+22.153
+write php artisan make:auth but in new laravel follow the link:https://www.codegrepper.com/code-examples/php/php+artisan+make%3Aauth+laravel+8
+to solve the error app.js not found and app.css not found write the below code
+npm install and then npm run dev
